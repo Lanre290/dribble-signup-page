@@ -35,7 +35,7 @@ function App() {
           <h3 className="text-clip text-wrap">I agree with Dribbble's &nbsp;<a href="/" className="underline">term of service</a>, &nbsp;<a href="/" className="underline">Privacy policy</a> and default &nbsp; <a href="/" className="underline">Notification settings</a></h3>
         </div>
       
-        <button className="rounded-3xl w-full text-gray-50 font-bold cursor-pointer py-4 mt-5" style={{backgroundColor: '#0d0c22'}} type='submit'>Create account</button>
+        <button className="w-full text-gray-50 font-bold cursor-pointer py-4 mt-5" style={{backgroundColor: '#0d0c22',borderRadius: '59px'}} type='submit'>Create account</button>
       </form>
     </div>
   )
