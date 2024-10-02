@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="flex flex-col md:flex-row">
       <img src={ironMan} className="hidden md:flex w-96 h-screen object-cover fixed top-0 bottom-0 left-0"></img>
-      <form action='/' className="flex flex-col md:pt-20 md:pl-48 md:w-2/5 p-5 md:ml-96">
+      <form action='/' className="flex flex-col md:pt-20 md:pl-48 md:w-3/5 lg:w-2/5 p-5 md:ml-96">
         <h3 className="text-4xl text-gray-900 font-bold special-font mb-16">Sign in to dribble</h3>
 
         <div className="flex flex-col md:gap-y-10">
